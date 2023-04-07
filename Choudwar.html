@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://www.cssscript.com/demo/sticky.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <title>Water Tank Details</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler" />
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Athagarh.html">Athagarh</a></li>
+                        <li><a href="Choudwar.html">Choudwar</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="card">
+            <div class="container-02" style="text-align: center; padding: 2%;">
+                <h2>Choudwar</h2>
+            </div>
+
+            <div class="card__circle card__circle1"></div>
+            <div class="card__circle card__circle2"></div>
+
+            <div class="card__container bd-container">
+
+                <div class="card__glass">
+
+                    <img src="IMG/esr.png" alt="" class="card__img">
+
+                    <div class="card__data">
+                        <h3 class="card__title">ESR</h3>
+                        <a href="#" class="card__button">Level-m</a>
+                    </div>
+
+                    <!-- <a href="#" class="card__button"></a> -->
+                    <p class="card_val_contain"><span class="value-txt">Value: </span><span class="val-num"
+                            id="Esr-value1"></span></p>
+                    <br>
+
+
+
+                </div>
+
+                <div class="card__glass">
+                    <img src="IMG/ugr.png" alt="" class="card__img">
+
+                    <div class="card__data">
+                        <h3 class="card__title">UGR</h3>
+                        <a href="#" class="card__button">Level-m</a>
+                    </div>
+
+                    <!-- <a href="#" class="card__button"></a> -->
+                    <p class="card_val_contain"><span class="value-txt">Value: </span><span class="val-num"
+                            id="ugrValue1"></span></p>
+
+
+                </div>
+
+                <div class="card__glass">
+                    <img src="IMG/pump.jpeg" alt="" class="card__img">
+
+                    <div class="card__data">
+                        <h3 class="card__title">Inlate Pressure</h3>
+                        <a href="#" class="card__button">Pressure-pascal</a>
+                    </div>
+
+                    <!-- <a href="#" class="card__button"></a> -->
+                    <p class="card_val_contain"><span class="value-txt">Value: </span><span class="val-num"
+                            id="in-late1"></span></p>
+
+
+                </div>
+
+
+                <div class="card__glass">
+
+                    <img src="IMG/water_pressure.png" alt="" class="card__img">
+
+                    <div class="card__data">
+                        <h3 class="card__title">CONTROL VALVE</h3>
+                        <a href="#" class="card__button">Satus-on/off</a>
+                    </div>
+
+                    <!-- <a href="#" class="card__button"></a> -->
+                    <p class="card_val_contain"><span class="value-txt">Value: </span><span class="val-num">0</span></p>
+                    <br>
+
+
+                </div>
+
+                <div class="card__glass">
+                    <img src="IMG/water_cl.png" alt="" class="card__img">
+
+                    <div class="card__data">
+                        <h3 class="card__title">CHLORINE</h3>
+                        <a href="#" class="card__button">Level</a>
+                    </div>
+
+                    <!-- <a href="#" class="card__button"></a> -->
+                    <p class="card_val_contain"><span class="value-txt">Value: </span><span class="val-num">0</span></p>
+
+
+                </div>
+
+                <div class="card__glass">
+                    <img src="IMG/flow.png" alt="" class="card__img">
+
+                    <div class="card__data">
+                        <h3 class="card__title">Outlate Pressure</h3>
+                        <a href="#" class="card__button">Level-m3</a>
+                    </div>
+
+                    <!-- <a href="#" class="card__button"></a> -->
+                    <p class="card_val_contain"><span class="value-txt">Value: </span><span class="val-num"
+                            id="outl_pre1"></span></p>
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+</body>
+<script src="./assets/js/fetchindex1.js"></script>
+<script>
+    function autoRefresh() {
+        window.location = window.location.href;
+    }
+    setInterval('autoRefresh()', 15000);
+</script>
+
+</html>
