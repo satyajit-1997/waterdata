@@ -93,7 +93,7 @@ img {
   padding: 3rem 0;
   background-image: url(IMG/fresh.jpg);
   height: 100%;
-
+background-color: rgba(255, 255, 255, .4);
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -114,12 +114,12 @@ img {
   overflow: hidden;
   text-align: center;
   padding: 2.5rem;
-  background: linear-gradient(
+   background: linear-gradient(
     130deg,
-    rgba(72, 72, 197, 0.6),
+   rgba(72, 72, 197, 0.6),
     rgba(251, 251, 254, 0.2)
-  );
-  /* background-color: #6A67CE; */
+  ); 
+  /*background-color: #6A67CE;*/
   box-shadow: inset 2px 2px 1px rgba(251, 251, 254, 0.3) inset -2px -2px 1px
     rgba(251, 251, 254, 0.2);
   border-radius: 1.5rem;
